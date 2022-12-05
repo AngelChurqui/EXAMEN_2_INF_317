@@ -1,0 +1,275 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="12/5/2022 2:24:48 AM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="DESKTOP-VFGAKP3"
+  DTS:CreatorName="DESKTOP-VFGAKP3\hp"
+  DTS:DTSID="{A2C46B7D-7C5A-432B-8BB7-721F814C6737}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5035.0"
+  DTS:LocaleID="3082"
+  DTS:ObjectName="Package"
+  DTS:PackageType="5"
+  DTS:VersionBuild="10"
+  DTS:VersionGUID="{E6A56895-D687-4DEF-A254-C41D5523D23D}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[(Localhost).Examen_inf_317]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{1E7FACCB-006F-4907-8B21-97A79825EB49}"
+      DTS:ObjectName="(Localhost).Examen_inf_317">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=(Localhost);Initial Catalog=Examen_inf_317;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{1E7FACCB-006F-4907-8B21-97A79825EB49}(Localhost).Examen_inf_317;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VFGAKP3.Churqui]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{EFF924BB-6496-41EA-9604-711D2F3EC87B}"
+      DTS:ObjectName="DESKTOP-VFGAKP3.Churqui">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-VFGAKP3;User ID=Churqui;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{EFF924BB-6496-41EA-9604-711D2F3EC87B}DESKTOP-VFGAKP3.Churqui;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtwIAVHLch0yZF9pwzBAYuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAACqvefGLw7wzQMroO1ltStMwKpKdlO2Iik1k8e/0bPZEwAAAAAOgAAAAAIAACAAAAB17/Suji8wVnDUVlnSaErpaYSvUsWRqU2z58h1EcQoxxAAAADGKF+vLfUkGK67rny3IOrdQAAAAEhsXkHVH0AVJTvMY5gWlGGin7cFMIDWrJg/4CeY9DspvBRClAVT0j3Mys/nF4XEVNqQbalk1cCVFWa6R13pg1s</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VFGAKP3.Churqui 1]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{9A97B9AA-ED47-4911-B126-73DCA93A861F}"
+      DTS:ObjectName="DESKTOP-VFGAKP3.Churqui 1">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-VFGAKP3;User ID=Churqui;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{9A97B9AA-ED47-4911-B126-73DCA93A861F}DESKTOP-VFGAKP3.Churqui 1;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtwIAVHLch0yZF9pwzBAYuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADQFC/PVh6+eo3lZmv0kTq3MPjqNZ9QjKbMr3Mu5QCwnwAAAAAOgAAAAAIAACAAAADus537vLr0BS7oxjO7UPcjgw2IKMylWNBkOB0DVC8YuBAAAAD71h3ATzydNyRpOFxP7OwxQAAAAAtIxge1fRA+1iEAxLQjX+B/WFEuzvqcVEEOgtV2rzT6LJwEsKZHO5fEICQKBjy5oB9Ez7l7Hi6XgvavVzWhvuQ</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VFGAKP3.Examen_inf_317]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{618B38CE-82AC-43DB-8884-46BACC6BE206}"
+      DTS:ObjectName="DESKTOP-VFGAKP3.Examen_inf_317">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-VFGAKP3;Initial Catalog=Examen_inf_317;Provider=SQLNCLI11.1;Integrated Security=SSPI;Auto Translate=False;Application Name=SSIS-Package-{618B38CE-82AC-43DB-8884-46BACC6BE206}DESKTOP-VFGAKP3.Examen_inf_317;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[DESKTOP-VFGAKP3.Examen_inf_317.Churqui]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{802C7890-7F5D-4180-8469-3B7159D0124B}"
+      DTS:ObjectName="DESKTOP-VFGAKP3.Examen_inf_317.Churqui">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=DESKTOP-VFGAKP3;User ID=Churqui;Initial Catalog=Examen_inf_317;Provider=SQLNCLI11.1;Application Name=SSIS-Package-{802C7890-7F5D-4180-8469-3B7159D0124B}DESKTOP-VFGAKP3.Examen_inf_317.Churqui;Auto Translate=False;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAtwIAVHLch0yZF9pwzBAYuwAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAAB/eVgP0Vrc69a8ty6BZouNdm8uUvS90nFthVKvmn0KAwAAAAAOgAAAAAIAACAAAABfFzG36hVNNMPQ+6avCJL3Bxhqladn+yBw7OwLlIdMFRAAAACTa6vf8kZ0Yc7Hv6QorMnsQAAAAGf9J8J4iIsqc+Uv6EU2Xaun9geKkwp6kXjvf066LH54DrekpRPhABZzCREfyaqY0f6rW9m/QY+z2vL8/tV2iec</DTS:Password>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Localhost.Examen_inf_317]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{49426553-6D0C-44D0-BB34-1EA36833265A}"
+      DTS:ObjectName="Localhost.Examen_inf_317">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=Localhost;Initial Catalog=Examen_inf_317;Provider=SQLNCLI11.1;Integrated Security=SSPI;Application Name=SSIS-Package-{49426553-6D0C-44D0-BB34-1EA36833265A}Localhost.Examen_inf_317;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\añadir_tabla"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{96D85C73-B97D-4248-89FA-A742B7C41CAC}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="añadir_tabla"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{49426553-6D0C-44D0-BB34-1EA36833265A}"
+          SQLTask:SqlStatementSource="INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (1, N'Juan', N'Mendoza', N'10/12/2000', N'JuanM@gmail.com', N'7088281')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (2, N'Viviana', N'Garcia', N'11/11/1999', N'VivianaG@gmail.com', N'183291')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (3, N'Arturo', N'Iturri', N'19/09/1999', N'IturriA@gmail.com', N'7811923')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (4, N'Rosario', N'Mendoza', N'14/12/2000', N'RosarioM@gmail.com', N'6839123')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (5, N'Marianela', N'Lopez', N'15/06/1998', N'MarianelaL@gmail.com', N'1012466')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (6, N'Maycol', N'Gutierrez', N'30/03/1997', N'MaycolG@gmail.com', N'912075')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (7, N'Cazandra', N'Poma', N'11/03/1998', N'CazandraP@gmail.com', N'7037311')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (8, N'Pablo', N'Lorenze', N'01/12/1998', N'PabloL@gmail.com', N'8461286')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (9, N'Federico', N'Zolaman', N'13/09/1999', N'FedericoZ@gmail.com', N'9987401')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (10, N'Mercedes', N'Alvarez', N'20/05/1999', N'MercedesA@gmail.com', N'3015213')&#xA;INSERT [dbo].[alumnos] ([id_alm], [nombre], [apellidos], [fec_nac], [gmail], [ci]) VALUES (11, N'Juaquin', N'Barrios', N'18/02/2001', N'JuaquinB@gmail.com', N'9012657')" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\crear_tabla"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{240F3285-CEEA-4FDD-8DEF-1ADACE5248DA}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="crear_tabla"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{49426553-6D0C-44D0-BB34-1EA36833265A}"
+          SQLTask:SqlStatementSource="CREATE TABLE [dbo].[alumnos](&#xA;&#x9;[id_alm] [int] NOT NULL,&#xA;&#x9;[nombre] [varchar](50) NULL,&#xA;&#x9;[apellidos] [varchar](50) NULL,&#xA;&#x9;[fec_nac] [varchar](50) NULL,&#xA;&#x9;[gmail] [varchar](50) NULL,&#xA;&#x9;[ci] [varchar](50) NULL&#xA;) ON [PRIMARY]&#xA;GO" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+    <DTS:Executable
+      DTS:refId="Package\inicio"
+      DTS:CreationName="Microsoft.ExecuteSQLTask"
+      DTS:Description="Tarea Ejecutar SQL"
+      DTS:DTSID="{1DA12538-4212-4A40-A8CF-DB8C4F5D5DD7}"
+      DTS:ExecutableType="Microsoft.ExecuteSQLTask"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="inicio"
+      DTS:TaskContact="Execute SQL Task; Microsoft Corporation; SQL Server 2022; © 2022 Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1"
+      DTS:ThreadHint="0">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <SQLTask:SqlTaskData
+          SQLTask:Connection="{49426553-6D0C-44D0-BB34-1EA36833265A}"
+          SQLTask:SqlStatementSource="IF  EXISTS (SELECT * FROM sys.objects WHERE object_id = OBJECT_ID(N'[dbo].[alumnos]') AND type in (N'U'))&#xA;DROP TABLE [dbo].[alumnos]&#xA;END" xmlns:SQLTask="www.microsoft.com/sqlserver/dts/tasks/sqltask" />
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:PrecedenceConstraints>
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint]"
+      DTS:CreationName=""
+      DTS:DTSID="{F1881C47-BCBA-48A4-BB60-CEACFB8F2FBE}"
+      DTS:From="Package\inicio"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint"
+      DTS:To="Package\crear_tabla" />
+    <DTS:PrecedenceConstraint
+      DTS:refId="Package.PrecedenceConstraints[Constraint 1]"
+      DTS:CreationName=""
+      DTS:DTSID="{4BC5371E-5C84-4C09-B43D-4249C96E97FB}"
+      DTS:From="Package\crear_tabla"
+      DTS:LogicalAnd="True"
+      DTS:ObjectName="Constraint 1"
+      DTS:To="Package\añadir_tabla" />
+  </DTS:PrecedenceConstraints>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="8" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="176,42"
+          Id="Package\inicio"
+          TopLeft="241,98" />
+        <NodeLayout
+          Size="134,42"
+          Id="Package\crear_tabla"
+          TopLeft="243,175" />
+        <NodeLayout
+          Size="185,42"
+          Id="Package\añadir_tabla"
+          TopLeft="237,282" />
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint]"
+          TopLeft="329,140">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-19,35"
+              Start="0,0"
+              End="-19,27.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,13.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,13.5"
+                    Point2="0,17.5"
+                    Point3="-4,17.5" />
+                  <mssgle:LineSegment
+                    End="-15,17.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="-15,17.5"
+                    Point2="-19,17.5"
+                    Point3="-19,21.5" />
+                  <mssgle:LineSegment
+                    End="-19,27.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package.PrecedenceConstraints[Constraint 1]"
+          TopLeft="310,217">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="19.5,65"
+              Start="0,0"
+              End="19.5,57.5">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,28.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,28.5"
+                    Point2="0,32.5"
+                    Point3="4,32.5" />
+                  <mssgle:LineSegment
+                    End="15.5,32.5" />
+                  <mssgle:CubicBezierSegment
+                    Point1="15.5,32.5"
+                    Point2="19.5,32.5"
+                    Point3="19.5,36.5" />
+                  <mssgle:LineSegment
+                    End="19.5,57.5" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
