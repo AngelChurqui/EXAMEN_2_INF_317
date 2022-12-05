@@ -1,0 +1,5 @@
+id_alm, nombre, apellidos, fecha_nac, gmail, ci
+
+1, Juan, Mendoza, 10/12/2000, JuanM@gmail.com, 7088281
+2, Viviana, Garcia, 11/11/1999, VivianaG@gmail.com, 183291
+3, Arturo, Iturri, 19/09/1999, IturriA@gmail.com, 7811923

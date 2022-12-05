@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{C9674DCB-5085-4A16-B785-4C70DD1589BD}") = "examen_inf317", "examen_inf317\examen_inf317.dtproj", "{BB3A5242-6D7D-4168-A5C3-D6C148550E01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB3A5242-6D7D-4168-A5C3-D6C148550E01}.Development|Default.ActiveCfg = Development
+		{BB3A5242-6D7D-4168-A5C3-D6C148550E01}.Development|Default.Build.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FAD2E3CA-53C2-494E-82FD-9C97EE8C449D}
+	EndGlobalSection
+EndGlobal
